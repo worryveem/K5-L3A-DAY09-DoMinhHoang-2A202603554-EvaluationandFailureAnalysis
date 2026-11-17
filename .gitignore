@@ -1,5 +1,35 @@
 __pycache__/
 *.pyc
-src/reports/
+# Keep runtime reports ignored, but expose the selected submission evidence to Git.
+src/reports/*
+!src/reports/README.md
+!src/reports/baseline_v1.json
+!src/reports/baseline_v2.json
+!src/reports/eval_fixed.json
+!src/reports/eval_seeded_regression.json
+!src/reports/eval_pr.json
+!src/reports/m1_taxonomy_evidence.json
+!src/reports/judge_tone_calibration.json
+!src/reports/judge_helpful_calibration.json
+!src/reports/verification_summary.json
+!src/reports/verification.log
+!src/reports/requirements-resolved.txt
+!src/reports/v2/
+src/reports/v2/*
+!src/reports/v2/eval_slice_regression.json
+!src/reports/v2/eval_flaky_regression.json
+!src/reports/v2/principal_scope_evidence.json
 src/traces/
 *.sqlite
+
+# Lab 8 protections retained when integrating into this Lab 9 repository.
+.env
+.env.*
+!.env.example
+.venv/
+.pytest_cache/
+.DS_Store
+*.sqlite-*
+traces/
+student_drop/
+src/eval/instructor/
