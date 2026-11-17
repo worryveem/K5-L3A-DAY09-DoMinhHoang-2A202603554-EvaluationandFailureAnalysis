@@ -1,6 +1,23 @@
-# Tài liệu thêm
+# Mục lục tài liệu Lab 09
 
-Các file quy định chính nằm ở root repo: [README.md](../README.md), [RULES.md](../RULES.md), [CHECKPOINTS.md](../CHECKPOINTS.md), [RUBRIC.md](../RUBRIC.md), [SUBMISSION.md](../SUBMISSION.md), [TEAM.md](../TEAM.md). Cài đặt và lệnh chạy: [src/README.md](../src/README.md).
+File quy định chính: [README.md](../README.md), [CHECKPOINTS.md](../CHECKPOINTS.md),
+[RUBRIC.md](../RUBRIC.md), [SUBMISSION.md](../SUBMISSION.md).
+Thiết lập Lab 09: [m0_setup.md](m0_setup.md).
+
+| Báo cáo bài làm Lab 09 | Nội dung |
+|---|---|
+| [REVIEW_LAB09.md](REVIEW_LAB09.md) | Bản bàn giao và cách kiểm tra |
+| [RUBRIC_AUDIT.md](RUBRIC_AUDIT.md) | Đối chiếu từng mục điểm, tình trạng báo cáo và biểu mẫu gốc |
+| [failure_taxonomy.md](failure_taxonomy.md) | Taxonomy, coding sheet và mapping v2 |
+| [trace_case.md](trace_case.md) | Bước sai đầu tiên và regression test |
+| [judge_audit.md](judge_audit.md) | Calibration và audit 16 bất đồng |
+| [eval_card.md](eval_card.md) | Metric, paired CI, v2, A/A và giới hạn |
+| [PRD_v1.1.md](PRD_v1.1.md) | Định nghĩa chất lượng, gate và trách nhiệm |
+| [PR_DESCRIPTION.md](PR_DESCRIPTION.md) | Nội dung PR dự thảo, chưa đăng lên GitHub |
+
+Các tài liệu dưới đây được kế thừa từ Lab 08 để tham khảo nền tảng. Chúng không phải mẫu báo cáo
+Lab 09 cần điền tên/MSSV. Repo hiện tại không yêu cầu thêm `TEAM.md` hoặc `RULES.md` của Lab 08.
+Cài đặt gốc Lab 08: [src/README.md](../src/README.md).
 
 | File | Nội dung | Khi nào đọc |
 | --- | --- | --- |

@@ -32,7 +32,7 @@ M0 đạt khi smoke in `M0 PASS`, build sinh 14 item trong
 `src/data/eval/eval_set_v1.jsonl` và 14 nhãn trong `src/data/eval/labels_v1.json`,
 cả hai lệnh trả exit 0. Nhãn nằm riêng, không nằm trong item.
 
-`failure_modes` còn rỗng ở M0 theo đúng starter. Lệnh `lab9.evalset --check`
+Ở thời điểm M0, `failure_modes` còn rỗng theo starter; hiện đã gắn mã đầy đủ ở M1. Lệnh `lab9.evalset --check`
 chỉ cần đạt sau khi hoàn thành taxonomy và gắn mã lỗi ở M1.
 
 ## Kết quả kiểm tra ngày 17/11/2026

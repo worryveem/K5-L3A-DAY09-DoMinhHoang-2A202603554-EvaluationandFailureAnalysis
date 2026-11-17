@@ -34,7 +34,9 @@ jobs:
       - name: Crash suite 20/20
         run: python -m lab8.crash_test --count 20 --out reports/crash.json
       - name: Public matrix on the reference swarm
-        run: python -m pytest -q -m student -o addopts= -k swarm
+        # Lab 9 has a parameterized swarm trace test requiring pydantic-evals.
+        # This job installs Lab 8 dependencies only; lab9-eval-gate runs all Lab 9 tests.
+        run: python -m pytest -q -m student -o addopts= -k "swarm and not lab9"
       - name: Benchmark (swarm only, stubs score 0 by design)
         run: python -m lab8.benchmark --shapes swarm --out reports/benchmark.json
       - name: Single-run CLI

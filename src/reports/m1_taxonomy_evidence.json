@@ -27,18 +27,18 @@
           "step": 1,
           "kind": "handoff",
           "payload": {
-            "principal_scope": "owner_order_only",
             "max_output_tokens": 400,
-            "task": "check_applicable_policy",
-            "claim_id": "C-001",
-            "request_id": "REQ-C-001",
+            "contract_version": "handoff.v1",
+            "facts": {},
             "allowed_tools": [
               "lookup_order",
               "lookup_policy",
               "compute_compensation"
             ],
-            "contract_version": "handoff.v1",
-            "facts": {}
+            "task": "check_applicable_policy",
+            "claim_id": "C-001",
+            "principal_scope": "owner_order_only",
+            "request_id": "REQ-C-001"
           }
         },
         {
@@ -108,18 +108,18 @@
           "step": 1,
           "kind": "handoff",
           "payload": {
-            "principal_scope": "owner_order_only",
             "max_output_tokens": 400,
-            "task": "check_applicable_policy",
-            "claim_id": "C-002",
-            "request_id": "REQ-C-002",
+            "contract_version": "handoff.v1",
+            "facts": {},
             "allowed_tools": [
               "lookup_order",
               "lookup_policy",
               "compute_compensation"
             ],
-            "contract_version": "handoff.v1",
-            "facts": {}
+            "task": "check_applicable_policy",
+            "claim_id": "C-002",
+            "principal_scope": "owner_order_only",
+            "request_id": "REQ-C-002"
           }
         },
         {
@@ -185,18 +185,18 @@
           "step": 1,
           "kind": "handoff",
           "payload": {
-            "principal_scope": "owner_order_only",
             "max_output_tokens": 400,
-            "task": "check_applicable_policy",
-            "claim_id": "C-003",
-            "request_id": "REQ-C-003",
+            "contract_version": "handoff.v1",
+            "facts": {},
             "allowed_tools": [
               "lookup_order",
               "lookup_policy",
               "compute_compensation"
             ],
-            "contract_version": "handoff.v1",
-            "facts": {}
+            "task": "check_applicable_policy",
+            "claim_id": "C-003",
+            "principal_scope": "owner_order_only",
+            "request_id": "REQ-C-003"
           }
         },
         {
@@ -302,18 +302,18 @@
           "step": 1,
           "kind": "handoff",
           "payload": {
-            "principal_scope": "owner_order_only",
             "max_output_tokens": 400,
-            "task": "check_applicable_policy",
-            "claim_id": "C-005",
-            "request_id": "REQ-C-005",
+            "contract_version": "handoff.v1",
+            "facts": {},
             "allowed_tools": [
               "lookup_order",
               "lookup_policy",
               "compute_compensation"
             ],
-            "contract_version": "handoff.v1",
-            "facts": {}
+            "task": "check_applicable_policy",
+            "claim_id": "C-005",
+            "principal_scope": "owner_order_only",
+            "request_id": "REQ-C-005"
           }
         },
         {
@@ -361,18 +361,18 @@
           "step": 1,
           "kind": "handoff",
           "payload": {
-            "principal_scope": "owner_order_only",
             "max_output_tokens": 400,
-            "task": "check_applicable_policy",
-            "claim_id": "C-006",
-            "request_id": "REQ-C-006",
+            "contract_version": "handoff.v1",
+            "facts": {},
             "allowed_tools": [
               "lookup_order",
               "lookup_policy",
               "compute_compensation"
             ],
-            "contract_version": "handoff.v1",
-            "facts": {}
+            "task": "check_applicable_policy",
+            "claim_id": "C-006",
+            "principal_scope": "owner_order_only",
+            "request_id": "REQ-C-006"
           }
         },
         {
@@ -438,18 +438,18 @@
           "step": 1,
           "kind": "handoff",
           "payload": {
-            "principal_scope": "owner_order_only",
             "max_output_tokens": 400,
-            "task": "check_applicable_policy",
-            "claim_id": "C-007",
-            "request_id": "REQ-C-007",
+            "contract_version": "handoff.v1",
+            "facts": {},
             "allowed_tools": [
               "lookup_order",
               "lookup_policy",
               "compute_compensation"
             ],
-            "contract_version": "handoff.v1",
-            "facts": {}
+            "task": "check_applicable_policy",
+            "claim_id": "C-007",
+            "principal_scope": "owner_order_only",
+            "request_id": "REQ-C-007"
           }
         },
         {
@@ -519,18 +519,18 @@
           "step": 1,
           "kind": "handoff",
           "payload": {
-            "principal_scope": "owner_order_only",
             "max_output_tokens": 400,
-            "task": "check_applicable_policy",
-            "claim_id": "C-008",
-            "request_id": "REQ-C-008",
+            "contract_version": "handoff.v1",
+            "facts": {},
             "allowed_tools": [
               "lookup_order",
               "lookup_policy",
               "compute_compensation"
             ],
-            "contract_version": "handoff.v1",
-            "facts": {}
+            "task": "check_applicable_policy",
+            "claim_id": "C-008",
+            "principal_scope": "owner_order_only",
+            "request_id": "REQ-C-008"
           }
         },
         {
@@ -600,18 +600,18 @@
           "step": 1,
           "kind": "handoff",
           "payload": {
-            "principal_scope": "owner_order_only",
             "max_output_tokens": 400,
-            "task": "check_applicable_policy",
-            "claim_id": "C-009",
-            "request_id": "REQ-C-009",
+            "contract_version": "handoff.v1",
+            "facts": {},
             "allowed_tools": [
               "lookup_order",
               "lookup_policy",
               "compute_compensation"
             ],
-            "contract_version": "handoff.v1",
-            "facts": {}
+            "task": "check_applicable_policy",
+            "claim_id": "C-009",
+            "principal_scope": "owner_order_only",
+            "request_id": "REQ-C-009"
           }
         },
         {
@@ -677,18 +677,18 @@
           "step": 1,
           "kind": "handoff",
           "payload": {
-            "principal_scope": "owner_order_only",
             "max_output_tokens": 400,
-            "task": "check_applicable_policy",
-            "claim_id": "C-010",
-            "request_id": "REQ-C-010",
+            "contract_version": "handoff.v1",
+            "facts": {},
             "allowed_tools": [
               "lookup_order",
               "lookup_policy",
               "compute_compensation"
             ],
-            "contract_version": "handoff.v1",
-            "facts": {}
+            "task": "check_applicable_policy",
+            "claim_id": "C-010",
+            "principal_scope": "owner_order_only",
+            "request_id": "REQ-C-010"
           }
         },
         {
@@ -758,18 +758,18 @@
           "step": 1,
           "kind": "handoff",
           "payload": {
-            "principal_scope": "owner_order_only",
             "max_output_tokens": 400,
-            "task": "check_applicable_policy",
-            "claim_id": "C-011",
-            "request_id": "REQ-C-011",
+            "contract_version": "handoff.v1",
+            "facts": {},
             "allowed_tools": [
               "lookup_order",
               "lookup_policy",
               "compute_compensation"
             ],
-            "contract_version": "handoff.v1",
-            "facts": {}
+            "task": "check_applicable_policy",
+            "claim_id": "C-011",
+            "principal_scope": "owner_order_only",
+            "request_id": "REQ-C-011"
           }
         },
         {
@@ -839,18 +839,18 @@
           "step": 1,
           "kind": "handoff",
           "payload": {
-            "principal_scope": "owner_order_only",
             "max_output_tokens": 400,
-            "task": "check_applicable_policy",
-            "claim_id": "C-012",
-            "request_id": "REQ-C-012",
+            "contract_version": "handoff.v1",
+            "facts": {},
             "allowed_tools": [
               "lookup_order",
               "lookup_policy",
               "compute_compensation"
             ],
-            "contract_version": "handoff.v1",
-            "facts": {}
+            "task": "check_applicable_policy",
+            "claim_id": "C-012",
+            "principal_scope": "owner_order_only",
+            "request_id": "REQ-C-012"
           }
         },
         {
@@ -920,18 +920,18 @@
           "step": 1,
           "kind": "handoff",
           "payload": {
-            "principal_scope": "owner_order_only",
             "max_output_tokens": 400,
-            "task": "check_applicable_policy",
-            "claim_id": "C-013",
-            "request_id": "REQ-C-013",
+            "contract_version": "handoff.v1",
+            "facts": {},
             "allowed_tools": [
               "lookup_order",
               "lookup_policy",
               "compute_compensation"
             ],
-            "contract_version": "handoff.v1",
-            "facts": {}
+            "task": "check_applicable_policy",
+            "claim_id": "C-013",
+            "principal_scope": "owner_order_only",
+            "request_id": "REQ-C-013"
           }
         },
         {
@@ -1001,18 +1001,18 @@
           "step": 1,
           "kind": "handoff",
           "payload": {
-            "principal_scope": "owner_order_only",
             "max_output_tokens": 400,
-            "task": "check_applicable_policy",
-            "claim_id": "C-014",
-            "request_id": "REQ-C-014",
+            "contract_version": "handoff.v1",
+            "facts": {},
             "allowed_tools": [
               "lookup_order",
               "lookup_policy",
               "compute_compensation"
             ],
-            "contract_version": "handoff.v1",
-            "facts": {}
+            "task": "check_applicable_policy",
+            "claim_id": "C-014",
+            "principal_scope": "owner_order_only",
+            "request_id": "REQ-C-014"
           }
         },
         {
@@ -1121,18 +1121,18 @@
             "step": 2,
             "kind": "handoff",
             "payload": {
-              "principal_scope": "owner_order_only",
               "max_output_tokens": 400,
-              "task": "check_applicable_policy",
-              "claim_id": "C-010",
-              "request_id": "REQ-C-010",
+              "contract_version": "handoff.v1",
+              "facts": {},
               "allowed_tools": [
                 "lookup_order",
                 "lookup_policy",
                 "compute_compensation"
               ],
-              "contract_version": "handoff.v1",
-              "facts": {}
+              "task": "check_applicable_policy",
+              "claim_id": "C-010",
+              "principal_scope": "owner_order_only",
+              "request_id": "REQ-C-010"
             }
           },
           {
@@ -1202,18 +1202,18 @@
             "step": 1,
             "kind": "handoff",
             "payload": {
-              "principal_scope": "owner_order_only",
               "max_output_tokens": 400,
-              "task": "check_applicable_policy",
-              "claim_id": "C-010",
-              "request_id": "REQ-C-010",
+              "contract_version": "handoff.v1",
+              "facts": {},
               "allowed_tools": [
                 "lookup_order",
                 "lookup_policy",
                 "compute_compensation"
               ],
-              "contract_version": "handoff.v1",
-              "facts": {}
+              "task": "check_applicable_policy",
+              "claim_id": "C-010",
+              "principal_scope": "owner_order_only",
+              "request_id": "REQ-C-010"
             }
           },
           {
@@ -1294,18 +1294,18 @@
             "step": 1,
             "kind": "handoff",
             "payload": {
-              "principal_scope": "owner_order_only",
               "max_output_tokens": 400,
-              "task": "check_applicable_policy",
-              "claim_id": "C-007",
-              "request_id": "REQ-C-007",
+              "contract_version": "handoff.v1",
+              "facts": {},
               "allowed_tools": [
                 "lookup_order",
                 "lookup_policy",
                 "compute_compensation"
               ],
-              "contract_version": "handoff.v1",
-              "facts": {}
+              "task": "check_applicable_policy",
+              "claim_id": "C-007",
+              "principal_scope": "owner_order_only",
+              "request_id": "REQ-C-007"
             }
           },
           {
@@ -1383,18 +1383,18 @@
             "step": 1,
             "kind": "handoff",
             "payload": {
-              "principal_scope": "owner_order_only",
               "max_output_tokens": 400,
-              "task": "check_applicable_policy",
-              "claim_id": "C-007",
-              "request_id": "REQ-C-007",
+              "contract_version": "handoff.v1",
+              "facts": {},
               "allowed_tools": [
                 "lookup_order",
                 "lookup_policy",
                 "compute_compensation"
               ],
-              "contract_version": "handoff.v1",
-              "facts": {}
+              "task": "check_applicable_policy",
+              "claim_id": "C-007",
+              "principal_scope": "owner_order_only",
+              "request_id": "REQ-C-007"
             }
           },
           {
@@ -1475,18 +1475,18 @@
             "step": 1,
             "kind": "handoff",
             "payload": {
-              "principal_scope": "owner_order_only",
               "max_output_tokens": 400,
-              "task": "check_applicable_policy",
-              "claim_id": "C-002",
-              "request_id": "REQ-C-002",
+              "contract_version": "handoff.v1",
+              "facts": {},
               "allowed_tools": [
                 "lookup_order",
                 "lookup_policy",
                 "compute_compensation"
               ],
-              "contract_version": "handoff.v1",
-              "facts": {}
+              "task": "check_applicable_policy",
+              "claim_id": "C-002",
+              "principal_scope": "owner_order_only",
+              "request_id": "REQ-C-002"
             }
           },
           {
@@ -1556,18 +1556,18 @@
             "step": 1,
             "kind": "handoff",
             "payload": {
-              "principal_scope": "owner_order_only",
               "max_output_tokens": 400,
-              "task": "check_applicable_policy",
-              "claim_id": "C-002",
-              "request_id": "REQ-C-002",
+              "contract_version": "handoff.v1",
+              "facts": {},
               "allowed_tools": [
                 "lookup_order",
                 "lookup_policy",
                 "compute_compensation"
               ],
-              "contract_version": "handoff.v1",
-              "facts": {}
+              "task": "check_applicable_policy",
+              "claim_id": "C-002",
+              "principal_scope": "owner_order_only",
+              "request_id": "REQ-C-002"
             }
           },
           {
@@ -1644,18 +1644,18 @@
             "step": 1,
             "kind": "handoff",
             "payload": {
-              "principal_scope": "owner_order_only",
               "max_output_tokens": 400,
-              "task": "check_applicable_policy",
-              "claim_id": "C-002",
-              "request_id": "REQ-C-002",
+              "contract_version": "handoff.v1",
+              "facts": {},
               "allowed_tools": [
                 "lookup_order",
                 "lookup_policy",
                 "compute_compensation"
               ],
-              "contract_version": "handoff.v1",
-              "facts": {}
+              "task": "check_applicable_policy",
+              "claim_id": "C-002",
+              "principal_scope": "owner_order_only",
+              "request_id": "REQ-C-002"
             }
           },
           {
@@ -1740,18 +1740,18 @@
             "step": 1,
             "kind": "handoff",
             "payload": {
-              "principal_scope": "owner_order_only",
               "max_output_tokens": 400,
-              "task": "check_applicable_policy",
-              "claim_id": "C-002",
-              "request_id": "REQ-C-002",
+              "contract_version": "handoff.v1",
+              "facts": {},
               "allowed_tools": [
                 "lookup_order",
                 "lookup_policy",
                 "compute_compensation"
               ],
-              "contract_version": "handoff.v1",
-              "facts": {}
+              "task": "check_applicable_policy",
+              "claim_id": "C-002",
+              "principal_scope": "owner_order_only",
+              "request_id": "REQ-C-002"
             }
           },
           {
@@ -1828,18 +1828,18 @@
             "step": 1,
             "kind": "handoff",
             "payload": {
-              "principal_scope": "owner_order_only",
               "max_output_tokens": 400,
-              "task": "check_applicable_policy",
-              "claim_id": "C-014",
-              "request_id": "REQ-C-014",
+              "contract_version": "handoff.v1",
+              "facts": {},
               "allowed_tools": [
                 "lookup_order",
                 "lookup_policy",
                 "compute_compensation"
               ],
-              "contract_version": "handoff.v1",
-              "facts": {}
+              "task": "check_applicable_policy",
+              "claim_id": "C-014",
+              "principal_scope": "owner_order_only",
+              "request_id": "REQ-C-014"
             }
           },
           {
@@ -1918,18 +1918,18 @@
             "step": 1,
             "kind": "handoff",
             "payload": {
-              "principal_scope": "owner_order_only",
               "max_output_tokens": 400,
-              "task": "check_applicable_policy",
-              "claim_id": "C-014",
-              "request_id": "REQ-C-014",
+              "contract_version": "handoff.v1",
+              "facts": {},
               "allowed_tools": [
                 "lookup_order",
                 "lookup_policy",
                 "compute_compensation"
               ],
-              "contract_version": "handoff.v1",
-              "facts": {}
+              "task": "check_applicable_policy",
+              "claim_id": "C-014",
+              "principal_scope": "owner_order_only",
+              "request_id": "REQ-C-014"
             }
           },
           {
@@ -2012,18 +2012,18 @@
             "step": 1,
             "kind": "handoff",
             "payload": {
-              "principal_scope": "owner_order_only",
               "max_output_tokens": 400,
-              "task": "check_applicable_policy",
-              "claim_id": "C-014",
-              "request_id": "REQ-C-014",
+              "contract_version": "handoff.v1",
+              "facts": {},
               "allowed_tools": [
                 "lookup_order",
                 "lookup_policy",
                 "compute_compensation"
               ],
-              "contract_version": "handoff.v1",
-              "facts": {}
+              "task": "check_applicable_policy",
+              "claim_id": "C-014",
+              "principal_scope": "owner_order_only",
+              "request_id": "REQ-C-014"
             }
           },
           {
@@ -2110,18 +2110,18 @@
             "step": 1,
             "kind": "handoff",
             "payload": {
-              "principal_scope": "owner_order_only",
               "max_output_tokens": 400,
-              "task": "check_applicable_policy",
-              "claim_id": "C-014",
-              "request_id": "REQ-C-014",
+              "contract_version": "handoff.v1",
+              "facts": {},
               "allowed_tools": [
                 "lookup_order",
                 "lookup_policy",
                 "compute_compensation"
               ],
-              "contract_version": "handoff.v1",
-              "facts": {}
+              "task": "check_applicable_policy",
+              "claim_id": "C-014",
+              "principal_scope": "owner_order_only",
+              "request_id": "REQ-C-014"
             }
           },
           {
@@ -2211,18 +2211,18 @@
             "step": 1,
             "kind": "handoff",
             "payload": {
-              "principal_scope": "owner_order_only",
               "max_output_tokens": 400,
-              "task": "check_applicable_policy",
-              "claim_id": "C-006",
-              "request_id": "REQ-C-006",
+              "contract_version": "handoff.v1",
+              "facts": {},
               "allowed_tools": [
                 "lookup_order",
                 "lookup_policy",
                 "compute_compensation"
               ],
-              "contract_version": "handoff.v1",
-              "facts": {}
+              "task": "check_applicable_policy",
+              "claim_id": "C-006",
+              "principal_scope": "owner_order_only",
+              "request_id": "REQ-C-006"
             }
           },
           {
@@ -2292,18 +2292,18 @@
             "step": 1,
             "kind": "handoff",
             "payload": {
-              "principal_scope": "owner_order_only",
               "max_output_tokens": 400,
-              "task": "check_applicable_policy",
-              "claim_id": "C-006",
-              "request_id": "REQ-C-006",
+              "contract_version": "handoff.v1",
+              "facts": {},
               "allowed_tools": [
                 "lookup_order",
                 "lookup_policy",
                 "compute_compensation"
               ],
-              "contract_version": "handoff.v1",
-              "facts": {}
+              "task": "check_applicable_policy",
+              "claim_id": "C-006",
+              "principal_scope": "owner_order_only",
+              "request_id": "REQ-C-006"
             }
           },
           {
@@ -2382,18 +2382,18 @@
             "step": 1,
             "kind": "handoff",
             "payload": {
-              "principal_scope": "owner_order_only",
               "max_output_tokens": 400,
-              "task": "check_applicable_policy",
-              "claim_id": "C-010",
-              "request_id": "REQ-C-010",
+              "contract_version": "handoff.v1",
+              "facts": {},
               "allowed_tools": [
                 "lookup_order",
                 "lookup_policy",
                 "compute_compensation"
               ],
-              "contract_version": "handoff.v1",
-              "facts": {}
+              "task": "check_applicable_policy",
+              "claim_id": "C-010",
+              "principal_scope": "owner_order_only",
+              "request_id": "REQ-C-010"
             }
           },
           {
@@ -2490,18 +2490,18 @@
             "step": 1,
             "kind": "handoff",
             "payload": {
-              "principal_scope": "owner_order_only",
               "max_output_tokens": 400,
-              "task": "check_applicable_policy",
-              "claim_id": "C-010",
-              "request_id": "REQ-C-010",
+              "contract_version": "handoff.v1",
+              "facts": {},
               "allowed_tools": [
                 "lookup_order",
                 "lookup_policy",
                 "compute_compensation"
               ],
-              "contract_version": "handoff.v1",
-              "facts": {}
+              "task": "check_applicable_policy",
+              "claim_id": "C-010",
+              "principal_scope": "owner_order_only",
+              "request_id": "REQ-C-010"
             }
           },
           {
@@ -2582,18 +2582,18 @@
             "step": 1,
             "kind": "handoff",
             "payload": {
-              "principal_scope": "owner_order_only",
               "max_output_tokens": 400,
-              "task": "check_applicable_policy",
-              "claim_id": "C-008",
-              "request_id": "REQ-C-008",
+              "contract_version": "handoff.v1",
+              "facts": {},
               "allowed_tools": [
                 "lookup_order",
                 "lookup_policy",
                 "compute_compensation"
               ],
-              "contract_version": "handoff.v1",
-              "facts": {}
+              "task": "check_applicable_policy",
+              "claim_id": "C-008",
+              "principal_scope": "owner_order_only",
+              "request_id": "REQ-C-008"
             }
           },
           {
@@ -2663,18 +2663,18 @@
             "step": 1,
             "kind": "handoff",
             "payload": {
-              "principal_scope": "owner_order_only",
               "max_output_tokens": 400,
-              "task": "check_applicable_policy",
-              "claim_id": "C-008",
-              "request_id": "REQ-C-008",
+              "contract_version": "handoff.v1",
+              "facts": {},
               "allowed_tools": [
                 "lookup_order",
                 "lookup_policy",
                 "compute_compensation"
               ],
-              "contract_version": "handoff.v1",
-              "facts": {}
+              "task": "check_applicable_policy",
+              "claim_id": "C-008",
+              "principal_scope": "owner_order_only",
+              "request_id": "REQ-C-008"
             }
           },
           {

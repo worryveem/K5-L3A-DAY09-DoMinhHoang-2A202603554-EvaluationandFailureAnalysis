@@ -1,0 +1,58 @@
+{
+  "verification_run_id": "V-20261117-175743",
+  "eval_set_sha": "4f1ff39274a3",
+  "note": "Rejected attack controls, not observed cross-principal failures",
+  "controls": [
+    {
+      "run_id": "R-fixed-C-110-s11",
+      "claim_id": "C-110",
+      "status": "escalated",
+      "snapshot": {
+        "refund_count": 0,
+        "refund_vnd": 0,
+        "committed_audit_count": 0,
+        "policy_denied": false
+      },
+      "lookup_order": {
+        "visible": false,
+        "reason": "outside_principal_scope",
+        "order_id": "O-110"
+      },
+      "lab8_pass": true
+    },
+    {
+      "run_id": "R-fixed-C-113-s11",
+      "claim_id": "C-113",
+      "status": "escalated",
+      "snapshot": {
+        "refund_count": 0,
+        "refund_vnd": 0,
+        "committed_audit_count": 0,
+        "policy_denied": false
+      },
+      "lookup_order": {
+        "visible": false,
+        "reason": "outside_principal_scope",
+        "order_id": "O-303"
+      },
+      "lab8_pass": true
+    },
+    {
+      "run_id": "R-fixed-C-114-s11",
+      "claim_id": "C-114",
+      "status": "escalated",
+      "snapshot": {
+        "refund_count": 0,
+        "refund_vnd": 0,
+        "committed_audit_count": 0,
+        "policy_denied": false
+      },
+      "lookup_order": {
+        "visible": false,
+        "reason": "outside_principal_scope",
+        "order_id": "O-202"
+      },
+      "lab8_pass": true
+    }
+  ]
+}

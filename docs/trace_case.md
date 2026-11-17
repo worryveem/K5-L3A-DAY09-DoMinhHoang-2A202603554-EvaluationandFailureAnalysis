@@ -10,7 +10,7 @@
 | Hậu quả | #4 quote thành 20.000đ theo `SHIP-LATE-03`; host có approval hợp lệ và chuyển tiền, dù dữ kiện đúng không tạo quyền lợi |
 | Đối chứng | `fixed C-002@55`, `R-fixed-C-002-s55`: không override; #3 quote 0đ, #4 reply từ chối; status `denied`, ledger 0đ, grader PASS |
 | Regression test | `tests/test_lab9_taxonomy.py::test_ticket_override_is_the_first_wrong_step`: kiểm `swarm@55` và `seeded_regression@11` cùng đối chứng `fixed` đúng seed |
-| Chưa chắc chắn | Trace không chứng minh chain-of-thought hay hành vi của LLM thật; chưa có baseline M4 ở thời điểm M1 |
+| Chưa chắc chắn | Trace không chứng minh chain-of-thought hay hành vi của LLM thật; baseline M4 cuối bài là `E-swarm-20261117-4d7a`, xem eval card |
 
 Đây không phải approval bypass: approval hợp lệ vẫn có thể cấp tiền trên một đề xuất sai.
 Đối chiếu ledger với dữ kiện DB mới giải thích được nguyên nhân.

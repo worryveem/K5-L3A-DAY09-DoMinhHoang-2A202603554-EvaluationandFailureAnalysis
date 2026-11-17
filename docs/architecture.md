@@ -1,6 +1,8 @@
 # Architecture
 
-Tài liệu tham khảo về bốn shape và ranh giới code / model. Nhóm mô tả kiến trúc **của mình** ở mục 3 "Giải pháp" trong [`report/team/group_report.md`](../report/team/group_report.md). Báo cáo cả nhóm không quá 5 trang ngoài phụ lục.
+Tài liệu này được kế thừa từ Lab 08 để tham khảo bốn shape và ranh giới code/model.
+Báo cáo nhóm `report/team/group_report.md` thuộc bài 08, không phải artifact bắt buộc trong repo Lab 09.
+Phần đánh giá của Lab 09 được trình bày trong [eval card](eval_card.md) và [PRD v1.1](PRD_v1.1.md).
 
 ## Bốn shape
 
