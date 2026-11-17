@@ -1,0 +1,41 @@
+name: lab8-cross-platform
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  host-gate:
+    name: ${{ matrix.os }} / py${{ matrix.python }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python: ["3.11", "3.13"]
+    env:
+      PYTHONUTF8: "1"
+    # Code lives in src/ (skeleton-lab layout); every lab command runs from there.
+    defaults:
+      run:
+        working-directory: src
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install
+        run: python -m pip install -r requirements.txt
+      - name: Smoke
+        run: python -m lab8.smoke
+      - name: Host gate (default pytest)
+        run: python -m pytest -q
+      - name: Crash suite 20/20
+        run: python -m lab8.crash_test --count 20 --out reports/crash.json
+      - name: Public matrix on the reference swarm
+        run: python -m pytest -q -m student -o addopts= -k swarm
+      - name: Benchmark (swarm only, stubs score 0 by design)
+        run: python -m lab8.benchmark --shapes swarm --out reports/benchmark.json
+      - name: Single-run CLI
+        run: python -m lab8.run --shape swarm --claim-id C-001 --seed 11 --db reports/run.sqlite

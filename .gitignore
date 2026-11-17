@@ -3,3 +3,15 @@ __pycache__/
 src/reports/
 src/traces/
 *.sqlite
+
+# Lab 8 protections retained when integrating into this Lab 9 repository.
+.env
+.env.*
+!.env.example
+.venv/
+.pytest_cache/
+.DS_Store
+*.sqlite-*
+traces/
+student_drop/
+src/eval/instructor/
